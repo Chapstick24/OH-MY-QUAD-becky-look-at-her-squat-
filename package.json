@@ -1,0 +1,30 @@
+{
+  "name": "mongoose_skeleton",
+  "version": "1.0.0",
+  "description": "Fitness Tracker",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "watch": "nodemon server.js",
+    "seed": "node seeders/seed.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "express": "^4.17.1",
+    "mongojs": "^3.1.0",
+    "mongoose": "^5.12.10",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chapstick24/OH-MY-QUAD-becky-look-at-her-squat-.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Chapstick24/OH-MY-QUAD-becky-look-at-her-squat-/issues"
+  },
+  "homepage": "https://github.com/Chapstick24/OH-MY-QUAD-becky-look-at-her-squat-#readme"
+}
