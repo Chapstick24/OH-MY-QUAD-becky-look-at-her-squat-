@@ -32,6 +32,10 @@ const WorkoutSchema = new Schema({
   distance: {
       type: Number,
       required: false
+  },
+  day:{
+    type: Date,
+    default: Date.now
   }
 
 });
