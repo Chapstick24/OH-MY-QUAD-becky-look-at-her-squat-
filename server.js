@@ -16,7 +16,7 @@ mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/WorkingOutDB", 
   useNewUrlParser: true,
   useFindAndModify: false,
   useCreateIndex: true,
-  useFindAndModify: false
+  useFindAndModify: true
 
 });
 
