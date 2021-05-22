@@ -14,10 +14,9 @@ app.use(express.static("public"));
 
 mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/WorkingOutDB", {
   useNewUrlParser: true,
-  useFindAndModify: false,
+  useUnifiedTopology: true,
   useCreateIndex: true,
-  useFindAndModify: true
-
+  useFindAndModify: false
 });
 
 require("./routes/htmlroutes")(app);
