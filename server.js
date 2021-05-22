@@ -20,7 +20,6 @@ mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/WorkingOutDB", 
 
 });
 
-
 require("./routes/htmlroutes")(app);
 require("./routes/apiroutes")(app);
 
