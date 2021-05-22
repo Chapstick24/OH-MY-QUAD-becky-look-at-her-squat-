@@ -18,7 +18,7 @@ mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/WorkingOutDB", 
   useCreateIndex: true,
   useFindAndModify: false
 });
-
+console.log("mongoDB uri", process.env.MONGODB_URI)
 require("./routes/htmlroutes")(app);
 require("./routes/apiroutes")(app);
 
