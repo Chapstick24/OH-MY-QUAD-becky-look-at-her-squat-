@@ -4,9 +4,9 @@ Fitness Tracker
 
 ## Links
 
-https://dashboard.heroku.com/apps/warm-eyrie-90690/settings
+[Heroku](https://dashboard.heroku.com/apps/warm-eyrie-90690/settings)
 
-https://github.com/Chapstick24/OH-MY-QUAD-becky-look-at-her-squat-
+[GitHub](https://github.com/Chapstick24/OH-MY-QUAD-becky-look-at-her-squat-)
 
 
 ## User Story
@@ -27,3 +27,14 @@ The user should be able to:
   * View the combined weight of multiple exercises from the past seven workouts on the `stats` page.
 
   * View the total duration of each workout from the past seven workouts on the `stats` page.
+
+
+
+  ## Screen Shots 
+
+![image](images/Screenshot.png)
+
+
+![image](images/Screenshot1.png)
+
+
